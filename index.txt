@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My First Netlify Site</title>
+</head>
+<body>
+  <h1>Hello from Netlify!</h1>
+  <p>This is my first deployed webpage.</p>
+</body>
+</html>
