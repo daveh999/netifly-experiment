@@ -2,9 +2,29 @@
 <html>
 <head>
   <title>My First Netlify Site</title>
+  <style>
+    @keyframes spin {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+    .rotating-square {
+      width: 80px;
+      height: 80px;
+      background-color: #4a90e2;
+      animation: spin 2s linear infinite;
+      margin: 40px auto;
+    }
+    img {
+      display: block;
+      margin: 0 auto;
+      max-width: 100%;
+    }
+  </style>
 </head>
 <body>
   <h1>Hello from Netlify!</h1>
   <p>This is my first deployed webpage.</p>
+  <div class="rotating-square"></div>
+  <img src="assets/dog.jpg" alt="Dog">
 </body>
 </html>
